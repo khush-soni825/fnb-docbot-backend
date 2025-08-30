@@ -180,5 +180,96 @@
       "source": "AI ML  Notes.docx",
       "chunk": 7
     }
+  },
+  {
+    "page_content": "AI/ML Definition – Artificial Intelligence is a concept where a system or a machine performs basic human tasks like – problem solving, decision making, and analysing information. Common examples include – Meta AI by Meta, ChatGPT by OpenAI, Gemini AI by Google, etc….. Common Applications and Examples – Image/Video/Audio processing and generating AI in Education (Graphical representation of Data) Health Care Facial Recognition 22/07/2025 Intelligent behaviour – The intelligent behaviour showcases how a program/system/machine executes a task by using critical thinking, analysis and making trial-by-error situations. If a machine is provided by a certain situations, the effective response of mac",
+    "metadata": {
+      "source": "AI ML  Notes.docx",
+      "chunk": 0
+    }
+  },
+  {
+    "page_content": "by-error situations. If a machine is provided by a certain situations, the effective response of machine determines whether it is smart or intelligent. For example, T-Maze problem. In this scenario, a worm is placed in a “T” like structure. A small amount of food is placed on the right side (always in the right side). A worm is left to search for food. In the above problem, worm has 2 options – either to go right or left. If it goes to left, then in second trial, it will go to right. And if it goes to right in first trial, it will go to right in the second trial also. Thus, it showcases the intelligent behaviour of the worm in the T-Maze problem. 23/07/2025 TURING TEST – Human/Operator/Inter",
+    "metadata": {
+      "source": "AI ML  Notes.docx",
+      "chunk": 1
+    }
+  },
+  {
+    "page_content": "telligent behaviour of the worm in the T-Maze problem. 23/07/2025 TURING TEST – Human/Operator/Interrogator The Turing test was proposed by Alan Turing in 1950 to determine whether a machine can exhibit intelligent behaviour like humans. In the above test, if the response of the machine is indistinguishable, then the machine has passed the test, else if the response is too different, then the machine has failed the test. Agent and Environment – An Agent is considered to be a program/machine/device that is exhibiting intelligent behaviour. The Environment is considered to be the things around the said agent(s). These components of environments are perceived by agents, and it determines their ",
+    "metadata": {
+      "source": "AI ML  Notes.docx",
+      "chunk": 2
+    }
+  },
+  {
+    "page_content": "he said agent(s). These components of environments are perceived by agents, and it determines their intelligent behaviour. For example, Tesla’s Cyber Truck is an agent and the trees, other vehicles, traffic, humans, etc… that are around it are considered as its environment. 29/07/2025 Rational v/s Irrational Reasoning – AI uses different formats of reasoning depending upon the data. The two brought types of reasoning are – rational and non-rational/irrational reasoning. Rational Reasoning – It refers to logical thinking, and making their tasks achievable through goal-oriented thinking. These systems work on making decisions based on data, rules & regulations and expected outcomes. Key featur",
+    "metadata": {
+      "source": "AI ML  Notes.docx",
+      "chunk": 3
+    }
+  },
+  {
+    "page_content": "ystems work on making decisions based on data, rules & regulations and expected outcomes. Key features include – It is based on logic, algorithm, etc…. It follows a task using step-by-step approach. It uses probability and effective optimisation to complete a task. For example: an AI based car stopping at red light Non-Rational Reasoning – This reasoning refers to decisions and processing not only based on logic and code, but by using emotions, judgements, intuitions, while interacting with users. Key features include – Imitating/Mimicking human-like behaviour. It does not follow any scripted logic. It learns by pattern recognition, past experiences, and heuristics\\ For example: chatbots use",
+    "metadata": {
+      "source": "AI ML  Notes.docx",
+      "chunk": 4
+    }
+  },
+  {
+    "page_content": "logic. It learns by pattern recognition, past experiences, and heuristics\\ For example: chatbots used in mental health platforms. ( name – Woebot: mental health chatbot ) This AI is more useful in creative and emotionally complex tasks. Rational behaviour is more useful in an environment where decisions must be precised, on-point, and data-driven. Whereas Non-Rational behaviour is often used to stimulate human-like mannerisms and empathy for completing their tasks. 30/07/2025 Challenges faced in AI – In the current era, AI is present in almost all the fields. Therefore, the broader challenges faced by AI are classified into two categories Technical challenges – Handling complex tasks – If an",
+    "metadata": {
+      "source": "AI ML  Notes.docx",
+      "chunk": 5
+    }
+  },
+  {
+    "page_content": "faced by AI are classified into two categories Technical challenges – Handling complex tasks – If an AI driven vehicle encounters children playing in the middle of road, the next task taken by the system will be difficult as AI struggles to react appropriately without understanding the complexity of the situation. Scalability and efficiency – For small ventures and businesses, AI can be difficult to make understand massive dataset and large language model for text and code. It is treated as a barrier for efficiency of AI. Interperobility – It means the ability of computer systems or any software to exchange information and use that information. When two AI systems are unable to communicate o",
+    "metadata": {
+      "source": "AI ML  Notes.docx",
+      "chunk": 6
+    }
+  },
+  {
+    "page_content": "re to exchange information and use that information. When two AI systems are unable to communicate or are unable to understand each other, it is a challenge that is faced by those systems Ethical considerations in AI – BIAS (Judgemental/Prejudiced) –",
+    "metadata": {
+      "source": "AI ML  Notes.docx",
+      "chunk": 7
+    }
+  },
+  {
+    "page_content": "Me: What is client? i wrote in 25-30 words PDF: A client is a computer program or device that requests services, resources, or data from a server within a network, initiating communication and receiving responses for various applications. Me: What is server? I wrote in 25-30 words PDF: A server is a computer program or hardware device that provides services, resources, or data to clients over a network. It manages requests, processes data, and delivers responses to ensure smooth communication. Me: What is print server? I wrote in 25-30 words PDF: A print server is a network device or software that manages print requests from clients, queues jobs, and directs them to appropriate printers, fac",
+    "metadata": {
+      "source": "CSC Quiz Solutions.txt",
+      "chunk": 0
+    }
+  },
+  {
+    "page_content": "that manages print requests from clients, queues jobs, and directs them to appropriate printers, facilitating efficient printing within a network. Me: What is client stub? I wrote in 25-30 words PDF: A client stub is a proxy program that resides on the client side, responsible for marshaling request data and sending it to the server, enabling communication in client-server architecture. Me: What is MVC, RPC? I wrote in 25-30 words PDF: MVC (Model-View-Controller) is a design pattern separating data, user interface, and control logic for better organization. RPC (Remote Procedure Call) enables a program to invoke procedures on a remote server as if they were local.",
+    "metadata": {
+      "source": "CSC Quiz Solutions.txt",
+      "chunk": 1
+    }
+  },
+  {
+    "page_content": "Feasibility Study Chapter 7 Introduction • To determine what the candidate system is to do by defining its expected performance. • Thus a feasibility study is carried out to select the best system that meets performance requirements Types of Feasibility Study • Economic Feasibility • Technical Feasibility • Behavioral Feasibility Economic Feasibility • Also known as cost benefit analysis • To determine the benefits and savings that are expected from a candidate system and compare them with costs. • If Benefits outweigh Costs, then the decision is made to Design and Implement the system. Technical Feasibility • It checks whether the existing computer system supports the candidate system or no",
+    "metadata": {
+      "source": "Feasibility Study.pdf",
+      "chunk": 0
+    }
+  },
+  {
+    "page_content": "cal Feasibility • It checks whether the existing computer system supports the candidate system or not or up to what extent it supports. • It basically centers around Hardware, Software etc. For e.g. Current Computer is operating at 77 % capacity and running another application can Overload the system so need new system. Behavioral Feasibility • An estimate should be made of how strong a reaction the user staff is likely to have towards the development of a computerized system. • It is common knowledge that computer installation have something to do with Turnover, Transfers and changes in employee Job Status. For e.g. SBI Bank. Steps in Feasibility Analysis 1. Form a project team and appoint ",
+    "metadata": {
+      "source": "Feasibility Study.pdf",
+      "chunk": 1
+    }
+  },
+  {
+    "page_content": "yee Job Status. For e.g. SBI Bank. Steps in Feasibility Analysis 1. Form a project team and appoint a project leader 2. Prepare system flowcharts 3. Enumerate potential candidate systems 4. Describe and identify characteristics of candidate systems 5. Determine and evaluate performance and cost effectiveness of each candidate system 6. Weight system performance and cost data 7. Select the best candidate system 8. Prepare and report final project directive to management",
+    "metadata": {
+      "source": "Feasibility Study.pdf",
+      "chunk": 2
+    }
   }
 ]
