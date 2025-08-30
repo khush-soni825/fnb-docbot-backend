@@ -23,6 +23,8 @@ app = FastAPI(title="F&B DocBot Backend", version="0.1.0")
 UPLOAD_DIR = "vector"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
+PORT = os.getenv("PORT", 8000)
+
 
 @app.post("/ingest")
 async def ingest(files: List[UploadFile] = File(...)):
