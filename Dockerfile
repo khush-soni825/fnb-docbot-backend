@@ -29,7 +29,7 @@ RUN pip install --no-cache-dir -r /app/requirements.txt
 COPY . /app/
 
 # Step 7: Expose the port the app will run on
-EXPOSE 8000
+EXPOSE 10000
 
 # Step 8: Define the entry point to start the FastAPI app with Uvicorn
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port $PORT"]

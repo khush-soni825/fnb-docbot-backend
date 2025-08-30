@@ -1,5 +1,6 @@
 from fastapi import FastAPI, UploadFile, File, Form
 from fastapi.responses import PlainTextResponse
+from fastapi.middleware.cors import CORSMiddleware
 import os
 from dotenv import load_dotenv  # For loading environment variables from .env
 import traceback
@@ -19,6 +20,21 @@ if not GROK_API_KEY:
     raise ValueError("API key is missing! Please set it in the .env file.")
 
 app = FastAPI(title="F&B DocBot Backend", version="0.1.0")
+
+origins = [
+    "https://docbot.surge.sh/"
+    "https://docbot.surge.sh:10000/"
+    "http://localhost",
+    "http://localhost:10000",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 UPLOAD_DIR = "vector"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
