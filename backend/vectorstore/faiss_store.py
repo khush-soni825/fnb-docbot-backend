@@ -12,7 +12,7 @@ PERSIST_DIR = os.path.join(BASE_DIR, "vectorstore")
 os.makedirs(PERSIST_DIR, exist_ok=True)
 
 INDEX_FILE = os.path.join(PERSIST_DIR, "faiss_index.bin")
-DOCS_FILE = os.path.join(PERSIST_DIR, "documents.json")
+DOCS_FILE = os.path.join(PERSIST_DIR, "document.json")
 
 # Embedding model (384-dim)
 MODEL_NAME = "all-MiniLM-L6-v2"

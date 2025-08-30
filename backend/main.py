@@ -21,16 +21,10 @@ if not GROK_API_KEY:
 
 app = FastAPI(title="F&B DocBot Backend", version="0.1.0")
 
-origins = [
-    "https://docbot.surge.sh/"
-    "https://docbot.surge.sh:10000/"
-    "http://localhost",
-    "http://localhost:10000",
-]
-
+# Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -38,8 +32,6 @@ app.add_middleware(
 
 UPLOAD_DIR = "vector"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
-
-PORT = os.getenv("PORT", 8000)
 
 
 @app.post("/ingest")
